@@ -2,7 +2,7 @@
 
 Fun memory game developed as part of my JavaScript studies.
 
-🎮[Click here to play]()
+🎮[Click here to play](https://luciofer.github.io/memory-game/)
 
 ![preview](/src/assets/memory-game.PNG)
 
