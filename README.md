@@ -1,8 +1,10 @@
 # Memory Game
 
-Project in development.
+Fun memory game developed as part of my JavaScript studies.
 
+[🎮Click here to play]()
 
+![preview](/src/assets/memory-game.PNG)
 
 
 ## 👩🏾‍💻 Technologies
@@ -10,6 +12,7 @@ Project in development.
 - HTML5
 - CCS3
 - JavaScript
+- DOM Maniputaltion
 - Git and Github
 
 ## ✉ Contact
