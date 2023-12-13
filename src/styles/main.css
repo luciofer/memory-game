@@ -1,0 +1,82 @@
+:root {
+    --dark: #374151;
+    --darker: #03001e;
+    --darkest: #111827;
+    --pink: #ec38bc;
+    --purple: #646cff;
+    --purple2: #7303c0;
+    --light: #f2f2f2;
+    --white: #ffffff;
+    --clay: #263042;
+    --gumbo: #81a5a7;
+    --blue: #4070f4;
+    --navyblue: #001f3f;
+    --electicblue: #00bfff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    background: var(--blue);
+}
+
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+    background: linear-gradient(325deg, var(--clay) 0%, var(--purple) 30%, var(--pink) 70%, var(--white) 100%);
+    padding: 2.5rem 3.75rem;
+}
+
+h2 {
+    font-size: 3rem;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.reset {
+    padding: 1rem 1.25rem;
+    width: 100%;
+    color: var(--darkest);
+    background: var(--white);
+    border: none;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.reset:hover {
+    background: var(--dark);
+    opacity: 0.9;
+    color: var(--white);
+}
+
+.game {
+    border: solid 1px red;
+    width: 26.875rem;
+    height: 26.875rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+    transform-style: preserve-3d;
+    perspective: 31.25rem;
+}
+
+.item {
+    position: relative;
+    width: 6.25rem;
+    height: 6.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+}
